@@ -30,8 +30,8 @@ export const Data = [
         get_field('custom_field_name');`
     },
     {
-        'title' : ``,
-        'contents' : ``
+        'title' : `Get Category`,
+        'contents' : `$taxonomy = "project_type"; $dwnTrms = get_terms($taxonomy);`
     },
     {
         'title' : ``,
