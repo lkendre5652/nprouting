@@ -1,13 +1,21 @@
 import React from "react";
+import $ from 'jquery';
+import { Data } from "./Data";
 
-export const Home = () =>{
-    return(<>   
-    <div className="alert alert-warning alert-dismissible fade show" role="alert">
-        <strong>Home Page!</strong>This is the Home Page.
-        <button type="button" className="close" data-dismiss="alert" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-        </button>
-    </div>
-
+export const Home = () =>{      
+    return(<> 
+    {
+        Data.map((items,i)=>{
+            return(<>            
+                <div className="slidder-wrap">
+                    <div id={`wp-query${i}`} onClick={ (e)=> $("#"+e.target.id).next().slideToggle() } className="flip" >{items.title}</div>
+                    <div id={`wp-content${i}`} className="panel">
+                        <pre>{items.contents}</pre>             
+                    </div> 
+                </div>            
+            </>)
+        })
+    }     
+        
     </>)
 }
