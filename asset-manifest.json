@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/nprouting/static/css/main.073c9b0a.css",
-    "main.js": "/nprouting/static/js/main.d9c52c61.js",
+    "main.css": "/nprouting/static/css/main.50f52c41.css",
+    "main.js": "/nprouting/static/js/main.38a12d8e.js",
     "static/js/787.ad5a6c83.chunk.js": "/nprouting/static/js/787.ad5a6c83.chunk.js",
     "static/media/logo.svg": "/nprouting/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/nprouting/index.html",
-    "main.073c9b0a.css.map": "/nprouting/static/css/main.073c9b0a.css.map",
-    "main.d9c52c61.js.map": "/nprouting/static/js/main.d9c52c61.js.map",
+    "main.50f52c41.css.map": "/nprouting/static/css/main.50f52c41.css.map",
+    "main.38a12d8e.js.map": "/nprouting/static/js/main.38a12d8e.js.map",
     "787.ad5a6c83.chunk.js.map": "/nprouting/static/js/787.ad5a6c83.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.d9c52c61.js"
+    "static/css/main.50f52c41.css",
+    "static/js/main.38a12d8e.js"
   ]
 }
